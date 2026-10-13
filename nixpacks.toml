@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["python312", "nodejs_20"]
+
+[phases.build]
+cmds = [
+  "cd webapp && npm install && npm run build && cd ..",
+  "pip install -r requirements.txt"
+]
+
+[start]
+cmd = "python api/app.py"

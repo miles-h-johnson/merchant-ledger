@@ -1,0 +1,7 @@
+flask
+psycopg2-binary
+python-dotenv
+json5
+flask-cors
+openpyxl
+rapidfuzz

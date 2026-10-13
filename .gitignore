@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.env
+*.log
+data/_tmp_*
+node_modules/
+webapp/node_modules/
+webapp/build/
+webapp/dist/
+data/merchant_ledger.dump
+.DS_Store
+
+# Runtime diagnostics (hand-created, not tracked)
+logs/
+data/tmp_*
+scripts/tmp_*
+
+# Pipeline outputs and private inputs
+data/raw/
+data/lr_mapping_warnings.json
+data/match_anomalies.json

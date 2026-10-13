@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Crimson+Pro:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Crimson Pro', serif;
+  background: #0d0d0f;
+  color: #e7dfcf;
+}
+
+.runic-app {
+  background-color: #0d0d0f;
+  background-image:
+    radial-gradient(circle at 16% 12%, rgba(232, 168, 48, 0.12) 0%, rgba(232, 168, 48, 0.02) 28%, transparent 56%),
+    radial-gradient(circle at 82% 78%, rgba(126, 184, 212, 0.12) 0%, rgba(126, 184, 212, 0.02) 24%, transparent 50%),
+    linear-gradient(180deg, #131316 0%, #0d0d0f 68%),
+    repeating-linear-gradient(35deg, rgba(255, 255, 255, 0.016) 0 2px, transparent 2px 9px);
+}
+
+.runic-panel {
+  border: 1px solid rgba(200, 146, 42, 0.45);
+  background:
+    linear-gradient(155deg, rgba(34, 35, 39, 0.96), rgba(15, 16, 19, 0.94)),
+    repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.015) 0 1px, transparent 1px 7px);
+  box-shadow:
+    0 0 0 1px rgba(126, 184, 212, 0.12) inset,
+    0 0 28px rgba(232, 168, 48, 0.15),
+    0 24px 48px rgba(0, 0, 0, 0.6);
+}
+
+.runic-heading {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.03em;
+  text-shadow: 0 0 12px rgba(232, 168, 48, 0.28);
+}
+
+.runic-divider {
+  position: relative;
+  text-align: center;
+  height: 18px;
+}
+
+.runic-divider::before {
+  content: 'ᚱ ᚢ ᚾ ᛁ ᚲ • ᛒ ᛟ ᛗ ᚱ ᛖ ᚲ';
+  color: #c8922a;
+  font-family: 'Cinzel', serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.22em;
+  text-shadow: 0 0 10px rgba(232, 168, 48, 0.38);
+}
+
+.stone-input {
+  border: 1px solid rgba(200, 146, 42, 0.45);
+  background: linear-gradient(180deg, rgba(17, 18, 22, 0.95), rgba(12, 13, 16, 0.96));
+  box-shadow: 0 0 0 1px rgba(126, 184, 212, 0.06) inset;
+}
+
+.stone-input:focus {
+  border-color: #e8a830;
+  box-shadow: 0 0 0 2px rgba(232, 168, 48, 0.24), 0 0 14px rgba(232, 168, 48, 0.24);
+}
+
+.rune-button {
+  border: 1px solid rgba(232, 168, 48, 0.64);
+  background: linear-gradient(180deg, rgba(200, 146, 42, 0.45), rgba(140, 90, 18, 0.6));
+  box-shadow: 0 0 14px rgba(232, 168, 48, 0.26), 0 0 0 1px rgba(255, 230, 170, 0.15) inset;
+}
+
+.rune-button:hover:not(:disabled) {
+  background: linear-gradient(180deg, rgba(232, 168, 48, 0.52), rgba(168, 106, 22, 0.68));
+  box-shadow: 0 0 18px rgba(232, 168, 48, 0.38), 0 0 0 1px rgba(255, 240, 196, 0.2) inset;
+}
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}

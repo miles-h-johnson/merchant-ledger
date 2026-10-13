@@ -1,0 +1,381 @@
+{
+  "_schema": "LR item_id -> list of authoritative game_code targets",
+  "_version": 1,
+  "_status": "active",
+  "_force_unlinked": [
+    "item:metalchain-*",
+    "item:metalchain-bismuthbronze",
+    "item:metalchain-blackbronze",
+    "item:metalchain-copper",
+    "item:metalchain-gold",
+    "item:metalchain-iron",
+    "item:metalchain-meteoriciron",
+    "item:metalchain-silver",
+    "item:metalchain-steel",
+    "item:metalchain-tinbronze",
+    "item:metalbit-{metal}",
+    "item:metalbit-bismuth",
+    "item:metalbit-bismuthbronze",
+    "item:metalbit-blackbronze",
+    "item:metalbit-brass",
+    "item:metalbit-copper",
+    "item:metalbit-gold",
+    "item:metalbit-iron",
+    "item:metalbit-lead",
+    "item:metalbit-meteoriciron",
+    "item:metalbit-molybdochalkos",
+    "item:metalbit-silver",
+    "item:metalbit-steel",
+    "item:metalbit-tinbronze",
+    "item:fruit-cranberry",
+    "item:vegetable-turnip",
+    "item:crushed-cassiterite",
+    "item:crushed-chromite",
+    "item:crushed-ilmenite",
+    "item:flaxtwine",
+    "item:candle"
+  ],
+  "AG017": [
+    "item:mushroom-*"
+  ],
+  "IN001": ["item:ingot-bismuth"],
+  "IN002": ["item:ingot-brass"],
+  "IN003": ["item:ingot-copper"],
+  "IN004": ["item:ingot-cupronickel"],
+  "IN005": ["item:ingot-electrum"],
+  "IN006": ["item:ingot-gold"],
+  "IN007": ["item:ingot-iron"],
+  "IN008": ["item:ingot-lead"],
+  "IN009": ["item:ingot-meteoriciron"],
+  "IN010": ["item:ingot-nickel"],
+  "IN011": ["item:ingot-silver"],
+  "IN012": ["item:ingot-steel"],
+  "IN013": ["item:ingot-tin"],
+  "IN014": ["item:ingot-zinc"],
+  "IN015": ["item:ingot-bismuthbronze"],
+  "IN016": ["item:ingot-tinbronze"],
+  "IN017": ["item:ingot-blackbronze"],
+  "IN024": ["item:crushed-alum"],
+  "IN072": [
+    "item:pickaxehead-copper",
+    "item:axehead-copper",
+    "item:hammerhead-copper",
+    "item:hoehead-copper",
+    "item:knifeblade-copper",
+    "item:shovelhead-copper",
+    "item:sawblade-copper",
+    "item:scythehead-copper",
+    "item:cleaver-copper",
+    "item:prospectingpickhead-copper"
+  ],
+  "IN073": [
+    "item:pickaxehead-tinbronze",
+    "item:axehead-tinbronze",
+    "item:hammerhead-tinbronze",
+    "item:hoehead-tinbronze",
+    "item:knifeblade-tinbronze",
+    "item:shovelhead-tinbronze",
+    "item:sawblade-tinbronze",
+    "item:scythehead-tinbronze",
+    "item:cleaver-tinbronze",
+    "item:prospectingpickhead-tinbronze",
+    "item:pickaxehead-bismuthbronze",
+    "item:axehead-bismuthbronze",
+    "item:hammerhead-bismuthbronze",
+    "item:hoehead-bismuthbronze",
+    "item:knifeblade-bismuthbronze",
+    "item:shovelhead-bismuthbronze",
+    "item:sawblade-bismuthbronze",
+    "item:scythehead-bismuthbronze",
+    "item:cleaver-bismuthbronze",
+    "item:prospectingpickhead-bismuthbronze",
+    "item:pickaxehead-blackbronze",
+    "item:axehead-blackbronze",
+    "item:hammerhead-blackbronze",
+    "item:hoehead-blackbronze",
+    "item:knifeblade-blackbronze",
+    "item:shovelhead-blackbronze",
+    "item:sawblade-blackbronze",
+    "item:scythehead-blackbronze",
+    "item:cleaver-blackbronze",
+    "item:prospectingpickhead-blackbronze"
+  ],
+  "IN074": [
+    "item:axehead-iron",
+    "item:hammerhead-iron",
+    "item:hoehead-iron",
+    "item:knifeblade-iron",
+    "item:shovelhead-iron",
+    "item:sawblade-iron",
+    "item:scythehead-iron",
+    "item:cleaver-iron",
+    "item:prospectingpickhead-iron"
+  ],
+  "IN075": [
+    "item:pickaxehead-silver",
+    "item:axehead-silver",
+    "item:hammerhead-silver",
+    "item:hoehead-silver",
+    "item:knifeblade-silver",
+    "item:shovelhead-silver",
+    "item:sawblade-silver",
+    "item:scythehead-silver",
+    "item:cleaver-silver",
+    "item:prospectingpickhead-silver"
+  ],
+  "IN076": [
+    "item:pickaxehead-gold",
+    "item:axehead-gold",
+    "item:hammerhead-gold",
+    "item:hoehead-gold",
+    "item:knifeblade-gold",
+    "item:shovelhead-gold",
+    "item:sawblade-gold",
+    "item:scythehead-gold",
+    "item:cleaver-gold",
+    "item:prospectingpickhead-gold"
+  ],
+  "IN077": [
+    "item:pickaxehead-meteoriciron",
+    "item:axehead-meteoriciron",
+    "item:hammerhead-meteoriciron",
+    "item:hoehead-meteoriciron",
+    "item:knifeblade-meteoriciron",
+    "item:shovelhead-meteoriciron",
+    "item:sawblade-meteoriciron",
+    "item:scythehead-meteoriciron",
+    "item:cleaver-meteoriciron",
+    "item:prospectingpickhead-meteoriciron"
+  ],
+  "IN078": [
+    "item:pickaxehead-steel",
+    "item:axehead-steel",
+    "item:hammerhead-steel",
+    "item:hoehead-steel",
+    "item:knifeblade-steel",
+    "item:shovelhead-steel",
+    "item:sawblade-steel",
+    "item:scythehead-steel",
+    "item:cleaver-steel",
+    "item:prospectingpickhead-steel"
+  ],
+  "IN080": [
+    "item:axe-felling-copper"
+  ],
+  "IN092": [
+    "item:axe-felling-bismuthbronze"
+  ],
+  "IN104": [
+    "item:axe-felling-iron"
+  ],
+  "IN116": [
+    "item:axe-felling-steel"
+  ],
+  "IN128": [
+    "item:axe-felling-meteoriciron"
+  ],
+  "IN140": [
+    "item:axe-felling-silver"
+  ],
+  "IN152": [
+    "item:axe-felling-gold"
+  ],
+  "IN164": [
+    "item:bow-long"
+  ],
+  "IN165": [
+    "item:bow-recurve"
+  ],
+  "IN167": [
+    "item:armor-body-jerkin-leather",
+    "item:armor-legs-jerkin-leather"
+  ],
+  "IN168": [
+    "item:armor-body-sewn-linen",
+    "item:armor-legs-sewn-linen"
+  ],
+  "IN170": [
+    "item:armor-body-lamellar-copper",
+    "item:armor-head-lamellar-copper",
+    "item:armor-legs-lamellar-copper"
+  ],
+  "IN171": [
+    "item:armor-body-lamellar-tinbronze",
+    "item:armor-head-lamellar-tinbronze",
+    "item:armor-legs-lamellar-tinbronze"
+  ],
+  "IN172": [
+    "item:armor-body-lamellar-bismuthbronze",
+    "item:armor-head-lamellar-bismuthbronze",
+    "item:armor-legs-lamellar-bismuthbronze"
+  ],
+  "IN173": [
+    "item:armor-body-lamellar-blackbronze",
+    "item:armor-head-lamellar-blackbronze",
+    "item:armor-legs-lamellar-blackbronze"
+  ],
+  "IN174": [
+    "item:armor-body-brigandine-copper",
+    "item:armor-head-brigandine-copper",
+    "item:armor-legs-brigandine-copper"
+  ],
+  "IN175": [
+    "item:armor-body-brigandine-bismuthbronze",
+    "item:armor-head-brigandine-bismuthbronze",
+    "item:armor-legs-brigandine-bismuthbronze"
+  ],
+  "IN176": [
+    "item:armor-body-brigandine-tinbronze",
+    "item:armor-head-brigandine-tinbronze",
+    "item:armor-legs-brigandine-tinbronze"
+  ],
+  "IN177": [
+    "item:armor-body-brigandine-blackbronze",
+    "item:armor-head-brigandine-blackbronze",
+    "item:armor-legs-brigandine-blackbronze"
+  ],
+  "IN178": [
+    "item:armor-body-brigandine-iron",
+    "item:armor-head-brigandine-iron",
+    "item:armor-legs-brigandine-iron"
+  ],
+  "IN179": [
+    "item:armor-body-brigandine-meteoriciron",
+    "item:armor-head-brigandine-meteoriciron",
+    "item:armor-legs-brigandine-meteoriciron"
+  ],
+  "IN180": [
+    "item:armor-body-brigandine-steel",
+    "item:armor-head-brigandine-steel",
+    "item:armor-legs-brigandine-steel"
+  ],
+  "IN181": [
+    "item:armor-body-chain-copper",
+    "item:armor-head-chain-copper",
+    "item:armor-legs-chain-copper"
+  ],
+  "IN182": [
+    "item:armor-body-chain-gold",
+    "item:armor-head-chain-gold",
+    "item:armor-legs-chain-gold"
+  ],
+  "IN183": [
+    "item:armor-body-chain-silver",
+    "item:armor-head-chain-silver",
+    "item:armor-legs-chain-silver"
+  ],
+  "IN184": [
+    "item:armor-body-chain-bismuthbronze",
+    "item:armor-head-chain-bismuthbronze",
+    "item:armor-legs-chain-bismuthbronze"
+  ],
+  "IN185": [
+    "item:armor-body-chain-tinbronze",
+    "item:armor-head-chain-tinbronze",
+    "item:armor-legs-chain-tinbronze"
+  ],
+  "IN186": [
+    "item:armor-body-chain-blackbronze",
+    "item:armor-head-chain-blackbronze",
+    "item:armor-legs-chain-blackbronze"
+  ],
+  "IN187": [
+    "item:armor-body-chain-iron",
+    "item:armor-head-chain-iron",
+    "item:armor-legs-chain-iron"
+  ],
+  "IN188": [
+    "item:armor-body-chain-meteoriciron",
+    "item:armor-head-chain-meteoriciron",
+    "item:armor-legs-chain-meteoriciron"
+  ],
+  "IN189": [
+    "item:armor-body-chain-steel",
+    "item:armor-head-chain-steel",
+    "item:armor-legs-chain-steel"
+  ],
+  "IN190": [
+    "item:armor-body-scale-copper",
+    "item:armor-head-scale-copper",
+    "item:armor-legs-scale-copper"
+  ],
+  "IN193": [
+    "item:armor-body-scale-bismuthbronze",
+    "item:armor-head-scale-bismuthbronze",
+    "item:armor-legs-scale-bismuthbronze"
+  ],
+  "IN194": [
+    "item:armor-body-scale-tinbronze",
+    "item:armor-head-scale-tinbronze",
+    "item:armor-legs-scale-tinbronze"
+  ],
+  "IN195": [
+    "item:armor-body-scale-blackbronze",
+    "item:armor-head-scale-blackbronze",
+    "item:armor-legs-scale-blackbronze"
+  ],
+  "IN196": [
+    "item:armor-body-scale-iron",
+    "item:armor-head-scale-iron",
+    "item:armor-legs-scale-iron"
+  ],
+  "IN197": [
+    "item:armor-body-scale-meteoriciron",
+    "item:armor-head-scale-meteoriciron",
+    "item:armor-legs-scale-meteoriciron"
+  ],
+  "IN198": [
+    "item:armor-body-scale-steel",
+    "item:armor-head-scale-steel",
+    "item:armor-legs-scale-steel"
+  ],
+  "IN199": ["item:metalplate-copper"],
+  "IN200": ["item:metalplate-gold"],
+  "IN201": ["item:metalplate-silver"],
+  "IN202": ["item:metalplate-bismuthbronze"],
+  "IN203": ["item:metalplate-tinbronze"],
+  "IN204": ["item:metalplate-blackbronze"],
+  "IN205": ["item:metalplate-iron"],
+  "IN206": ["item:metalplate-meteoriciron"],
+  "IN207": ["item:metalplate-steel"],
+  "IN210": [
+    "item:armor-body-plate-iron",
+    "item:armor-head-plate-iron",
+    "item:armor-legs-plate-iron"
+  ],
+  "IN213": [
+    "item:armor-body-plate-meteoriciron",
+    "item:armor-head-plate-meteoriciron",
+    "item:armor-legs-plate-meteoriciron"
+  ],
+  "IN216": [
+    "item:armor-body-plate-steel",
+    "item:armor-head-plate-steel",
+    "item:armor-legs-plate-steel"
+  ],
+  "AR048": [
+    "item:meal-soup"
+  ],
+  "AR049": [
+    "item:meal-meatystew"
+  ],
+  "AR325": [
+    "item:leather"
+  ],
+  "AR328": [
+    "item:sewingkit"
+  ],
+  "AR329": [
+    "block:glass-blue",
+    "block:glass-pink",
+    "block:glass-plain",
+    "block:glass-red"
+  ],
+  "AR330": [
+    "item:book-normal-*"
+  ],
+  "AR332": [
+    "item:cloth-*"
+  ],
+  "AR333": []
+}
